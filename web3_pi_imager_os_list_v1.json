@@ -2,7 +2,7 @@
   "os_list": [
     {
       "name": "Web3 Pi image - v0.7.3 (latest)",
-      "description": "## Web3 Pi image for Raspberry Pi\r\nVersion 0.7.3\r\n\r\n### All Changes:\r\n\r\n- The firewall is configured automatically during the installation process.\r\n- The default user-data file is customized.\r\n- The user name is retrieved from the user-data file.\r\n- The ccze package has been added.\r\n\r\n\r\n\r\n\r\nYou can monitor the installation process through a dedicated website: \r\nhttp://your-hostname.local\r\nFor instance, if your hostname in the Raspberry Pi Imager was “eop-1” you should open your browser and type http://eop-1.local.\r\n\r\nThe Raspberry Pi with the Web3Pi image on port 80 hosts an HTTP server that continuously displays the following in the web browser:\r\n\r\n- The installation stage\r\n- The hostname and IP address of the device\r\n- The full installation log\r\n- Uptime\r\n- A link to the Grafana dashboard and a JSON status file\r\n\r\nSince the Raspberry Pi will reboot three times during the installation process, you may need to refresh the page manually.\r\nThe page should be available within 3 minutes of powering on.\r\n\r\nThe installation is divided into stages. \r\nThe installation is complete when you see: \"STAGE 100: Installation completed.\" \r\nThis status is shown in the screenshot below.\r\nYou should see a similar page:\r\n\r\n<img src=\"https://github.com/user-attachments/assets/f5c9b4b0-ac5b-4fbf-874d-e7c8984c1a70\" alt=\"alt text\" width=\"500\">\r\n",
+      "description": "Get Running Your Full Ethereum Node on Raspberry Pi. 2TB storage is required (USB SSD or NVMe) ",
       "url": "https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.7.3/Web3Pi_Single_Device.img.xz",
       "image_download_size": 1113688272,
       "image_download_sha256": "ba929176edadafa3a07014f8d483f266639af280466c7729dc13a5c9500d5eca",
@@ -17,7 +17,7 @@
     },
     {
       "name": "Web3 Pi image - v0.7.2",
-      "description": "## Web3 Pi image for Raspberry Pi\r\nVersion 0.7.2\r\n\r\n### All Changes:\r\n\r\n- The [LCD dashboard](https://github.com/Web3-Pi/web3-pi-dashboard) is automatically initialized at system startup as a service. No additional configuration is required.\r\n- The image was generated using the new [image-creation tool](https://github.com/Web3-Pi/image-creation-tool).\r\n\r\n\r\n\r\n\r\nYou can monitor the installation process through a dedicated website: \r\nhttp://your-hostname.local\r\nFor instance, if your hostname in the Raspberry Pi Imager was “eop-1” you should open your browser and type http://eop-1.local.\r\n\r\nThe Raspberry Pi with the Web3Pi image on port 80 hosts an HTTP server that continuously displays the following in the web browser:\r\n\r\n- The installation stage\r\n- The hostname and IP address of the device\r\n- The full installation log\r\n- Uptime\r\n- A link to the Grafana dashboard and a JSON status file\r\n\r\nSince the Raspberry Pi will reboot three times during the installation process, you may need to refresh the page manually.\r\nThe page should be available within 3 minutes of powering on.\r\n\r\nThe installation is divided into stages. \r\nThe installation is complete when you see: \"STAGE 100: Installation completed.\" \r\nThis status is shown in the screenshot below.\r\nYou should see a similar page:\r\n\r\n<img src=\"https://github.com/user-attachments/assets/f5c9b4b0-ac5b-4fbf-874d-e7c8984c1a70\" alt=\"alt text\" width=\"500\">\r\n",
+      "description": "Get Running Your Full Ethereum Node on Raspberry Pi. 2TB storage is required (USB SSD or NVMe) ",
       "url": "https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.7.2/Web3Pi_Single_Device.img.xz",
       "image_download_size": 1113580116,
       "image_download_sha256": "e9749b45c6ebc802a10b3f724d95ab4ea711bb9f0b1dd147b3aafc57a860b6aa",
@@ -32,7 +32,7 @@
     },
     {
       "name": "Web3 Pi image - v0.7.1",
-      "description": "## Web3 Pi image for Raspberry Pi\r\nVersion 0.7.1\r\n\r\n### All Changes:\r\n\r\n- Upgrade to Ubuntu 24.04.1.\r\n- The Nimbus startup script checks if the `trustedNodeSync` was successful; if not, it retries with a different server.\r\n- A new script has been introduced to test and sort the server list based on the average of three pings.\r\n- PCIe Gen.3 set as the default for Raspberry Pi 5.\r\n- Installation status page updates:\r\n   - New logo\r\n   - Added `favicon.ico`\r\n   - After installation, the page's auto-refresh frequency is reduced to 30 seconds\r\n   - The Grafana Dashboard button becomes active only after installation is complete and uptime exceeds 3 minutes\r\n   - HTML source code improvements and spelling corrections\r\n   - Uptime display enhanced to include days\r\n- New layout in the Grafana Dashboard\r\n- Added CPU temperature monitoring to Grafana\r\n- Data points on graphs are no longer connected when data is missing\r\n- Added network traffic monitoring to Grafana\r\n- Installation script improvements\r\n\r\nYou can monitor the installation process through a dedicated website: \r\nhttp://your-hostname.local\r\nFor instance, if your hostname in the Raspberry Pi Imager was “eop-1” you should open your browser and type http://eop-1.local.\r\n\r\nThe Raspberry Pi with the Web3Pi image on port 80 hosts an HTTP server that continuously displays the following in the web browser:\r\n\r\n- The installation stage\r\n- The hostname and IP address of the device\r\n- The full installation log\r\n- Uptime\r\n- A link to the Grafana dashboard and a JSON status file\r\n\r\nSince the Raspberry Pi will reboot three times during the installation process, you may need to refresh the page manually.\r\nThe page should be available within 3 minutes of powering on.\r\n\r\nThe installation is divided into stages. \r\nThe installation is complete when you see: \"STAGE 100: Installation completed.\" \r\nThis status is shown in the screenshot below.\r\nYou should see a similar page:\r\n\r\n<img src=\"https://github.com/user-attachments/assets/f5c9b4b0-ac5b-4fbf-874d-e7c8984c1a70\" alt=\"alt text\" width=\"500\">\r\n",
+      "description": "Get Running Your Full Ethereum Node on Raspberry Pi. 2TB storage is required (USB SSD or NVMe) ",
       "url": "https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.7.1/Web3Pi_Single_Device.img.xz",
       "image_download_size": 1083719248,
       "image_download_sha256": "b8e7ce82b5e52753250ae644ec398dab109f618c7cecdb06701a8b0f12916075",
@@ -47,43 +47,13 @@
     },
     {
       "name": "Web3 Pi image - v0.7.0",
-      "description": "## Web3 Pi image for Raspberry Pi\r\nVersion 0.7.0\r\n\r\n### All Changes:\r\n\r\n- Changed the storage mount path from /home to /mnt/storage\r\n- Added the ability to monitor the installation process via the web on port 80\r\n- Changed the installation process flow from a flag to a multi-state integer value\r\n- Reduced the installation time to 8 minutes\r\n- Forced synchronization of the system clock with NTP at startup\r\n- New, more accurate events logging method\r\n- Forced HDMI activation\r\n- Both HDMI ports are active\r\n- New method for installing Geth\r\n- New method for installing Grafana\r\n- Added Geth update script\r\n- Added Nimbus update script\r\n- Added soft restart script\r\n- Added '--http.corsdomain '*' ' flag to Geth\r\n- Overclocking disabled by default\r\n\r\n### New Feature: \r\n\r\nYou can monitor the installation process through a dedicated website: \r\nhttp://your-hostname.local\r\nFor instance, if your hostname in the Raspberry Pi Imager was “eop-1” you should open your browser and type http://eop-1.local.\r\n\r\nThe Raspberry Pi with the Web3Pi image on port 80 hosts an HTTP server that continuously displays the following in the web browser:\r\n\r\n- The installation stage\r\n- The hostname and IP address of the device\r\n- The full installation log\r\n- Uptime\r\n- A link to the Grafana dashboard and a JSON status file\r\n\r\nSince the Raspberry Pi will reboot three times during the installation process, you may need to refresh the page manually.\r\nThe page should be available within 3 minutes of powering on.\r\n\r\nThe installation is divided into stages. \r\nThe installation is complete when you see: \"STAGE 100: Installation completed.\" \r\nThis status is shown in the screenshot below.\r\nYou should see a similar page:\r\n\r\n<img src=\"https://github.com/user-attachments/assets/f5c9b4b0-ac5b-4fbf-874d-e7c8984c1a70\" alt=\"alt text\" width=\"500\">\r\n\r\n",
+      "description": "Get Running Your Full Ethereum Node on Raspberry Pi. 2TB storage is required (USB SSD or NVMe) ",
       "url": "https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.7.0/Web3Pi_Single_Device.img.xz",
       "image_download_size": 1032695968,
       "image_download_sha256": "fb756afd041d65b42dc74f708995b0989bf436a27eb5a1200e629cd550cfbf14",
       "extract_size": 3602505728,
       "extract_sha256": "5a2a3d37ee8bac87ca49cf94e130162a55e659982a65790aec9c4a9537fe073a",
       "release_date": "2024-09-02",
-      "init_format": "cloudinit",
-      "devices": [
-        "pi5-64bit",
-        "pi4-64bit"
-      ]
-    },
-    {
-      "name": "Web3Pi v0.6.1",
-      "description": "## Web3Pi image for Raspberry Pi\r\nVersion 0.6.1\r\n\r\n### All Changes:\r\n- Bootloader update\r\n- added PCIE_PROBE=1 for Rpi5\r\n- Install script fix\r\n\r\n",
-      "url": "https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.6.1/Web3Pi_Single_Device.img.xz",
-      "image_download_size": 1032683620,
-      "image_download_sha256": "239c1d5693362a9a04ebe63ca19e85a1eed507041f04929d36a550ea29257f66",
-      "extract_size": 3602505728,
-      "extract_sha256": "fa89ee16004f1b00145aa37f5622539a51b73215330d65507070c950eac42fd4",
-      "release_date": "2024-06-21",
-      "init_format": "cloudinit",
-      "devices": [
-        "pi5-64bit",
-        "pi4-64bit"
-      ]
-    },
-    {
-      "name": "Web3Pi v0.6",
-      "description": "## Web3Pi image for Raspberry Pi\r\nVersion 0.6\r\n\r\n### All Changes:\r\n- auto-choose the best checkpoint sync server for the consensus client\r\n- added `scripts` folder\r\n- script to gently shutdown Web3Pi node\r\n- script for software version check\r\n- delayed start Basic Node Monitor\r\n- synced with main branch\r\n- Geth, Lighthouse, Nimbus service config updated\r\n- install.sh script updated\r\n- fix for known issues\r\n",
-      "url": "https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.6/Web3Pi_Single_Device.img.xz",
-      "image_download_size": 1031930960,
-      "image_download_sha256": "0df6f5df3faaff3a45e546d75d937ea7861eb9294b27dc582aad1d19f3c89d61",
-      "extract_size": 3602505728,
-      "extract_sha256": "43148e2313ee0c780cc54b1eb81faf86b725cc2a9cb65ad54b24dea639d291b0",
-      "release_date": "2024-06-13",
       "init_format": "cloudinit",
       "devices": [
         "pi5-64bit",
