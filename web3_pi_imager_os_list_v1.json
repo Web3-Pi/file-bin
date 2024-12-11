@@ -1,8 +1,23 @@
 {
   "os_list": [
     {
-      "name": "Web3 Pi image - v0.7.3 (latest)",
-      "description": "Get Running Your Full Ethereum Node on Raspberry Pi. 2TB storage is required (USB SSD or NVMe) ",
+      "name": "Web3 Pi image - v0.7.4 (latest)",
+      "description": "Get Running Your Full Ethereum Node on Raspberry Pi. 2TB storage is required (USB SSD or NVMe)",
+      "url": "https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.7.4/Web3Pi_Single_Device.img.xz",
+      "image_download_size": 1135269928,
+      "image_download_sha256": "1e2b3ac7552a5d568da61aad222a441db3c11a4e2c4221da4d1f089559ac6098",
+      "extract_size": 3675607040,
+      "extract_sha256": "a352d497efd54b628d7201297f17caaff2217108aab853c6e6035e7e82efab5b",
+      "release_date": "2024-12-06",
+      "init_format": "cloudinit",
+      "devices": [
+        "pi5-64bit",
+        "pi4-64bit"
+      ]
+    },
+    {
+      "name": "Web3 Pi image - v0.7.3",
+      "description": "Get Running Your Full Ethereum Node on Raspberry Pi. 2TB storage is required (USB SSD or NVMe)",
       "url": "https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.7.3/Web3Pi_Single_Device.img.xz",
       "image_download_size": 1113688272,
       "image_download_sha256": "ba929176edadafa3a07014f8d483f266639af280466c7729dc13a5c9500d5eca",
@@ -17,7 +32,7 @@
     },
     {
       "name": "Web3 Pi image - v0.7.2",
-      "description": "Get Running Your Full Ethereum Node on Raspberry Pi. 2TB storage is required (USB SSD or NVMe) ",
+      "description": "Get Running Your Full Ethereum Node on Raspberry Pi. 2TB storage is required (USB SSD or NVMe)",
       "url": "https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.7.2/Web3Pi_Single_Device.img.xz",
       "image_download_size": 1113580116,
       "image_download_sha256": "e9749b45c6ebc802a10b3f724d95ab4ea711bb9f0b1dd147b3aafc57a860b6aa",
@@ -32,7 +47,7 @@
     },
     {
       "name": "Web3 Pi image - v0.7.1",
-      "description": "Get Running Your Full Ethereum Node on Raspberry Pi. 2TB storage is required (USB SSD or NVMe) ",
+      "description": "Get Running Your Full Ethereum Node on Raspberry Pi. 2TB storage is required (USB SSD or NVMe)",
       "url": "https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.7.1/Web3Pi_Single_Device.img.xz",
       "image_download_size": 1083719248,
       "image_download_sha256": "b8e7ce82b5e52753250ae644ec398dab109f618c7cecdb06701a8b0f12916075",
@@ -47,7 +62,7 @@
     },
     {
       "name": "Web3 Pi image - v0.7.0",
-      "description": "Get Running Your Full Ethereum Node on Raspberry Pi. 2TB storage is required (USB SSD or NVMe) ",
+      "description": "Get Running Your Full Ethereum Node on Raspberry Pi. 2TB storage is required (USB SSD or NVMe)",
       "url": "https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.7.0/Web3Pi_Single_Device.img.xz",
       "image_download_size": 1032695968,
       "image_download_sha256": "fb756afd041d65b42dc74f708995b0989bf436a27eb5a1200e629cd550cfbf14",
